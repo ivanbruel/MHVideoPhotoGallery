@@ -1046,7 +1046,6 @@
 }
 
 -(void)changeToErrorImage{
-    self.imageView.image = MHGalleryImage(@"error");
 }
 
 -(void)changePlayButtonToUnPlay{
