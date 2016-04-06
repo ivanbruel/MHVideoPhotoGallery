@@ -946,7 +946,7 @@
         [self.view addGestureRecognizer:imageTap];
         
         self.act = [UIActivityIndicatorView.alloc initWithFrame:self.view.bounds];
-        [self.act startAnimating];
+        //[self.act startAnimating];
         self.act.hidesWhenStopped =YES;
         self.act.tag =507;
         self.act.autoresizingMask =UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
